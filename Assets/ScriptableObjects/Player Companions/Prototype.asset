@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfb58e9f94f48904c8e9375c0987490b, type: 3}
+  m_Name: Prototype
+  m_EditorClassIdentifier: 
+  CompanionName: Prototype
+  GlobalCompanion: 0
+  CompanionSprite: {fileID: 21300000, guid: ba0b7fb53ed18174984a62fe6adf2c74, type: 3}
+  Abilities: []
+  Items: []

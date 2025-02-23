@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/CheckLoading.unity
+    guid: f05419850f861cb41932342d683203ef
+  - enabled: 1
+    path: Assets/Scenes/FileSelection.unity
+    guid: c58f39d4290c3824ca2d8752da71fed1
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 517fd49474f40374ab970944a70d13f8
+  - enabled: 1
+    path: Assets/Scenes/PrototypeScene1.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/PrototypeScene2.unity
+    guid: e8b6f75569ecf784d9bb15b708739d55
+  - enabled: 1
+    path: Assets/Scenes/PrototypeScene3.unity
+    guid: f8c4fb990e0fd0b43b235abbef67efcb
+  - enabled: 1
+    path: Assets/Scenes/PrototypeScene4.unity
+    guid: 020c2fc08a5a79d41a269f1d5e3138cb
+  - enabled: 1
+    path: Assets/Scenes/BattleScene.unity
+    guid: e38dae636566ae64b9ae4152c7a66fc2
+  - enabled: 1
+    path: Assets/Scenes/TKRPGUpdater.unity
+    guid: e61c0262b966444409cfbd16a038145e
+  - enabled: 1
+    path: Assets/Scenes/DebugScreen.unity
+    guid: 35eb7cf516e91a54d82b4e40bb94f1bc
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 2b724f78e7607284b9d908eb59f02a76, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 6b1cb0b73632f604bbf9313a3ab84d19, type: 3}
+    com.unity.localization.settings: {fileID: 11400000, guid: 2fac54e554075384aa347ba800897354, type: 2}
+  m_UseUCBPForAssetBundles: 0

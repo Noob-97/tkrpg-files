@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34b5ac9c84bdf0f44a05e3d680581645, type: 3}
+  m_Name: PrecisionPosition
+  m_EditorClassIdentifier: 
+  MinigameName: Presicion, Posicion
+  MinigameID: PrecisionPos
+  TypeOfMinigame: 0
+  Background: {fileID: 21300000, guid: 607fede27becb6f4bbe68ea5f06ed231, type: 3}
+  BackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  ColorCorners: {r: 0.3962264, g: 0.16970451, b: 0.16970451, a: 1}
+  ObjectsToGenerate: 1
+  Objects:
+  - ObjectSprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+    LocalPosition: {x: -2, y: 0}
+    Scale: {x: 0.05, y: 2}
+    OrderInLayer: 2
+    FreezePositionX: 0
+    ColliderActive: 0
+    ColliderSize: {x: 0, y: 0}
+  InitialTimeLimit: 2.5
+  CurrentLevel: 5
+  LevelDifficultyIVPercentage: 25

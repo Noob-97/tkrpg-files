@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26d7b9f9ca6dd6f4e980282ceac5c7c9, type: 3}
+  m_Name: Legos
+  m_EditorClassIdentifier: 
+  ItemName: Legos
+  ItemDesc: A ver quien se va a acercar cuando pongas los Legos en el suelo.
+  ItemSprite: {fileID: -962609962, guid: 45246560a4308f74db3c6da29436fc0d, type: 3}
+  PublicItem: 0
+  sumofHP: 0
+  sumofATK: 3
+  sumofDEF: 1
+  updatedminIV: 0
+  updatedmaxIV: 10

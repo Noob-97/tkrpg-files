@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 370d6e7ced209dc49a36cab500dc81b4, type: 3}
+  m_Name: GunGuy
+  m_EditorClassIdentifier: 
+  BattlerName: Gun Guy
+  hp: 50
+  maxHp: 50
+  attackValue: 6
+  defenseValue: 3
+  minIV: -1
+  maxIV: 1
+  NeutralSprite: {fileID: -1751480347, guid: 12841407322f1b54ca74f8330c3194a7, type: 3}
+  LowHealthSprite: {fileID: 21300000, guid: f615b868da0652d4a923e5a5b208f75c, type: 3}
+  PoopSprite: {fileID: 21300000, guid: c8badc73eda44f64e802fcedb8514058, type: 3}
+  Weapons: []
+  CurrentWeapon: {fileID: 0}
+  Abilities: []
+  Items: []
+  Companions: []
+  HaveAComapnion: 0
+  CurrentCompanion: {fileID: 0}
+  AttackMinigames: []
+  DefenseMinigames: []
+  DamageToEnemy: 0
+  DamageToReceive: 0

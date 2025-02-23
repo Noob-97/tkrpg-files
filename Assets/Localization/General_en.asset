@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: General_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: da9a92e23361a4c4da094048d0576ae7, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 7386084614144
+    m_Localized: START
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7386218831872
+    m_Localized: '- SETTINGS -'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7386227220480
+    m_Localized: EXIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56219862769664
+    m_Localized: BACK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56219875352576
+    m_Localized: CHAPTERS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56219875352577
+    m_Localized: PROTOTYPE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56219875352578
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56219875352579
+    m_Localized: Resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56219875352580
+    m_Localized: Fullscreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56219875352581
+    m_Localized: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56219875352582
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56219875352583
+    m_Localized: REMIND ME LATER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56219875352584
+    m_Localized: YE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56219875352585
+    m_Localized: Are you sure you want to exit?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56219875352586
+    m_Localized: PAUSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56219875352587
+    m_Localized: RESUME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56219875352588
+    m_Localized: RETURN TO MENU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56219875352589
+    m_Localized: SHOW INFO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56219875352590
+    m_Localized: END TURN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56219875352591
+    m_Localized: FIGHT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56219875352592
+    m_Localized: WEAPONS & COMP.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56219875352593
+    m_Localized: PASS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56219875352594
+    m_Localized: REGULAR ATTACK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56219875352595
+    m_Localized: ABILITIES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56219875352596
+    m_Localized: WEAPONS
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

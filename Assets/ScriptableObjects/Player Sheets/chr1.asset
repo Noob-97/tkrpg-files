@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 370d6e7ced209dc49a36cab500dc81b4, type: 3}
+  m_Name: chr1
+  m_EditorClassIdentifier: 
+  BattlerName: chr1
+  hp: 15
+  maxHp: 15
+  attackValue: 7
+  defenseValue: 12
+  minIV: 0
+  maxIV: 10
+  NeutralSprite: {fileID: -1130166217, guid: 556cda3362abeb34bb53f52e025a94c5, type: 3}
+  LowHealthSprite: {fileID: 426139778, guid: 556cda3362abeb34bb53f52e025a94c5, type: 3}
+  PoopSprite: {fileID: -2089091227, guid: 556cda3362abeb34bb53f52e025a94c5, type: 3}
+  Weapons:
+  - {fileID: 11400000, guid: c1ae3d96e6c8d684c99150c7ffc991c6, type: 2}
+  - {fileID: 11400000, guid: be8e0804a26f7504d89fadc26e69bb98, type: 2}
+  CurrentWeapon: {fileID: 0}
+  Abilities:
+  - {fileID: 11400000, guid: 95cc467a07fd02743b3f93b7df6fe394, type: 2}
+  Items:
+  - {fileID: 11400000, guid: c72ea698064ef374b8ca9255d2a8ee64, type: 2}
+  Companions:
+  - {fileID: 11400000, guid: b0243ff3bee092742a6451ef9d9062c3, type: 2}
+  - {fileID: 11400000, guid: f5a6c3851a5136041b425b5f3a541640, type: 2}
+  HaveAComapnion: 0
+  CurrentCompanion: {fileID: 0}
+  AttackMinigames:
+  - {fileID: 11400000, guid: 98f907071cd70614a8d18f26ca611e85, type: 2}
+  DefenseMinigames:
+  - {fileID: 11400000, guid: 5958ae38bfc731b49a627dacab2805d0, type: 2}
+  DamageToEnemy: -1
+  DamageToReceive: -1

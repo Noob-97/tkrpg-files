@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Panel
+  - Canvas
+  - Entrances
+  - E
+  - CharImage
+  - DialogText
+  - TextBox
+  - DS
+  - PlayerInputs
+  - ButtonE
+  - JoyStick
+  - MobileControls
+  - Background
+  - HPBarStat
+  - HPBarName
+  - HPBar
+  - NameStat
+  - HPStat
+  - ATKStat
+  - DEFStat
+  - COMPStat
+  - CompHPStat
+  - CompATKStat
+  - CompDEFStat
+  - CompCOMPStat
+  - CompStats
+  - MainMenu
+  - ItemMenu
+  - WeaponsMenu
+  - FightingMenu
+  - Stats
+  - CurrentDisp
+  - AbilityContent
+  - AbilityScroll
+  - WeaponsContent
+  - WeaponsScroll
+  - CompanionsContent
+  - CompanionsScroll
+  - ItemsContent
+  - ItemsScroll
+  - ResultHP
+  - ResultATK
+  - ResultDEF
+  - ResultIV
+  - IIImage
+  - IIName
+  - IIIcon0
+  - IIIcon1
+  - IIIcon2
+  - IIDesc
+  - BattleOption
+  - EHPBar
+  - EHPBarName
+  - EHPBarStat
+  - Enemy
+  - EnemyStats
+  - FinishTurn
+  - MinigameObject0
+  - MinigameObject1
+  - MinigameObject2
+  - MinigameObject3
+  - MinigameObject4
+  - MinigameGradient
+  - MinigameResult
+  - MinigameBlackText
+  - EDamageBlack
+  - EDamage
+  - Damage
+  - DamageBlack
+  - PoopedMenu
+  - BackMusic
+  - Up&Down
+  - SelectFileContent
+  - UpdaterDescContent
+  - PauseMenu
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - GameObjects
+  - Water
+  - UI
+  - InvWalls
+  - Entrances
+  - Player
+  - Particles
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Not-Canvas
+    uniqueID: 2615229337
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  m_RenderingLayers:
+  - Default

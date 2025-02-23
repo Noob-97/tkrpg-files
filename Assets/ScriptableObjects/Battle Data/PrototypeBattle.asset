@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6bfe2deada50174eb07fe5016750340, type: 3}
+  m_Name: PrototypeBattle
+  m_EditorClassIdentifier: 
+  Battlers:
+  - {fileID: 11400000, guid: 49b8d91d7801e854282056995112cce8, type: 2}
+  - {fileID: 11400000, guid: 39737a0c9befd7e4b80ed7c41f43021d, type: 2}
+  - {fileID: 11400000, guid: 9fb0e9dfed3682747aac2af61c2758bf, type: 2}
+  Enemy: {fileID: 11400000, guid: c2f5767625e239b45bd25e654f1547ef, type: 2}
+  Background: {fileID: 21300000, guid: 99cc49a7beb373844a9e1b95023849f5, type: 3}
+  Music: {fileID: 8300000, guid: abc2385c6d9bf724b8793211b0ff926d, type: 3}
