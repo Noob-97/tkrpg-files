@@ -74,10 +74,15 @@ public class PlayerMovement : MonoBehaviour
             JoyStickAnimator = GameObject.FindGameObjectWithTag("JoyStick").GetComponent<Animator>();
             ButtonEAnimator = GameObject.FindGameObjectWithTag("ButtonE").GetComponent<Animator>();
             MobileControls = GameObject.FindGameObjectWithTag("MobileControls");
-            if (Application.platform != RuntimePlatform.Android || !MobileControlsOverride)
+            if (Application.platform != RuntimePlatform.Android)
             {
                 GameObject.Find("PauseButton").SetActive(false);
                 MobileControls.SetActive(false);
+            }
+            if (MobileControlsOverride)
+            {
+                GameObject.Find("PauseButton").SetActive(true);
+                MobileControls.SetActive(true);
             }
         }
         panelanimator = GameObject.FindGameObjectWithTag("Panel").GetComponent<Animator>();

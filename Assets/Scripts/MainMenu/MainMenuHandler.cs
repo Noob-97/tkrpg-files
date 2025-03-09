@@ -110,14 +110,6 @@ public class MainMenuHandler : MonoBehaviour
     }
     public void StartGame()
     {
-        GameObject popup0 = GameObject.Find("PopUpScreen0");
-        popup0.GetComponent<CanvasGroup>().blocksRaycasts = false;
-        popup0.GetComponent<CanvasGroup>().interactable = false;
-        popup0.GetComponent<CanvasGroup>().DOFade(0, 0.5f);
-        GameObject popup1 = GameObject.Find("PopUpScreen1");
-        popup1.GetComponent<CanvasGroup>().blocksRaycasts = false;
-        popup1.GetComponent<CanvasGroup>().interactable = false;
-        popup1.GetComponent<CanvasGroup>().DOFade(0, 0.5f);
         AudioSource music = GameObject.Find("MusicManager").GetComponent<AudioSource>();
         float time = music.time;
         music.clip = menustart;
@@ -131,39 +123,6 @@ public class MainMenuHandler : MonoBehaviour
         title.GetComponent<Transform>().DOMoveX(-11.875f, 0.5f);
         backmain.GetComponent<Transform>().DOMoveX(0, 0.5f);
         mainmenu.GetComponent<Transform>().DOMoveX(0, 0.5f);
-    }
-    public void RunGoToUpdate()
-    {
-        StartCoroutine(GoToUpdate());
-    }
-    public IEnumerator GoToUpdate()
-    {
-        UpdateManager updatemanager = GameObject.Find("UpdateManager").GetComponent<UpdateManager>();
-        if (updatemanager.UpdateInfo.CanAutoInstall == true)
-        {
-            GameObject popup0 = GameObject.Find("PopUpScreen0");
-            popup0.GetComponent<CanvasGroup>().blocksRaycasts = false;
-            popup0.GetComponent<CanvasGroup>().interactable = false;
-            popup0.GetComponent<CanvasGroup>().DOFade(0, 0.5f);
-            yield return new WaitForSeconds(0.5f);
-            GameObject splash = GameObject.Find("SplashScreen");
-            splash.GetComponent<Image>().color = Color.black;
-            splash.GetComponent<CanvasGroup>().DOFade(1, 3);
-            AudioSource music = GameObject.Find("MusicManager").GetComponent<AudioSource>();
-            music.DOFade(0, 3);
-            yield return new WaitForSeconds(3);
-            SceneManager.LoadScene("TKRPGUpdater");
-        }
-        else
-        {
-            Application.OpenURL("https://noob-97.itch.io/tkrpg");
-            GameObject popup0 = GameObject.Find("PopUpScreen0");
-            popup0.GetComponent<CanvasGroup>().blocksRaycasts = false;
-            popup0.GetComponent<CanvasGroup>().interactable = false;
-            popup0.GetComponent<CanvasGroup>().DOFade(0, 0.5f);
-            yield return new WaitForSeconds(0.5f);
-            StartGame();
-        }
     }
     public void ChangeMusicPrototype()
     {

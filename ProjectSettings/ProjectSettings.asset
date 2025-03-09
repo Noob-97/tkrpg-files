@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: NoobTriesToCode
-  productName: 'TKRPG [PROTOTYPE v2.0]'
+  productName: 'TKRPG [PROTOTYPE v2.0-2]'
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0, g: 0, b: 0, a: 0}
@@ -142,7 +142,7 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
-  bundleVersion: PROTOTYPE v.2.0
+  bundleVersion: PROTOTYPE v.2.0-2
   preloadedAssets:
   - {fileID: 0}
   - {fileID: -944628639613478452, guid: 6b1cb0b73632f604bbf9313a3ab84d19, type: 3}
