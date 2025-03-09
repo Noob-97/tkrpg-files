@@ -133,14 +133,27 @@ public class CheckLoading : MonoBehaviour
             yield return new WaitUntil(() => updatemanager.CheckDone);
             if (updatemanager.CompareVersions() == false)
             {
-                OpenPopup("UpdatePopup");
-                yield return new WaitUntil(() => UpdatesChecked);
-                ClosePopup("UpdatePopup");
-                if (UpdateOption == NotUpdatedResult.Update)
+                if (Application.platform != RuntimePlatform.Android)
                 {
-                    TransitionPanel.SetTrigger("IsLeaving");
-                    yield return new WaitForSeconds(0.5f);
-                    SceneManager.LoadScene("TKRPGUpdater");
+                    OpenPopup("UpdatePopup");
+                    yield return new WaitUntil(() => UpdatesChecked);
+                    ClosePopup("UpdatePopup");
+                    if (UpdateOption == NotUpdatedResult.Update)
+                    {
+                        TransitionPanel.SetTrigger("IsLeaving");
+                        yield return new WaitForSeconds(0.5f);
+                        SceneManager.LoadScene("TKRPGUpdater");
+                    }
+                }
+                else
+                {
+                    OpenPopup("ItchPopup");
+                    yield return new WaitUntil(() => UpdatesChecked);
+                    ClosePopup("ItchPopup");
+                    if (UpdateOption == NotUpdatedResult.Update)
+                    {
+                        Application.OpenURL("https://noob-97.itch.io/tkrpg");
+                    }
                 }
             }
             GenerateText("Actualizaciones Comprobadas", "Updates Checked");
